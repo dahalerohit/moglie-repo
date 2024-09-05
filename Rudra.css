@@ -1,0 +1,117 @@
+body {
+    background-color:#272829;
+  }
+  .main-head{
+    display: flex;
+    font-size: 5px;
+  justify-content: space-around;   
+   flex-direction: row;
+    margin-top: 150px;
+    
+  }
+  .heading-1{
+    text-align: left;
+    margin-left: 0px;
+    font-size: 5px;
+
+    
+
+  }
+  #para{
+    color: red;
+  }
+  .heading-2{
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 250px;
+    font-size: 5px;
+
+
+  }
+  .heading-3{
+    text-align: left;
+    margin-right: 16px;
+    margin-left: 100px;
+    font-size: 5px;
+  }
+  .heading-1>h1{
+    color: white;
+  }
+  .heading-2>h1{
+    color: white;
+  }
+  .heading-3>h1{
+    color: white;
+  }
+  .heading-1>h2{
+    color: darkcyan;
+    font-size: 15px;
+  }
+  .heading-2>h2{
+    color: darkcyan;
+    font-size: 15px;
+  }
+    .heading-3>h2{
+        color: darkcyan;
+        font-size: 15px;
+    }   
+.container{
+    display: flex;
+}
+ .container-1 {
+    width: 350px;
+    height: 250px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color:black;
+   font-size: 10px;
+   margin-left: 0px;
+  }
+  .container-1>h1{
+    color: white;
+    font-size: medium;
+  }
+ .form-1>label{
+    display:inline-block;
+    color: aliceblue;
+ }
+.form-1>input{
+    width: 100px;
+    box-sizing: border-box;
+}
+.employee-form{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: white;
+    width: 100px;
+
+
+}
+.message>h1{
+    color: aliceblue;
+    font-size: medium;
+}
+.message>p{
+    color:darkslategray;
+}
+#successmessage>p{
+    color: green;
+}
+.table-1{
+    color: aliceblue;
+}
+#employees>h2{
+    color: aliceblue;
+font-size: medium;
+     
+
+}
+.table-1{
+    
+    color: aliceblue;
+}
+
+
+ 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Employees</title>
+    <link rel="stylesheet" href="Rudra.css">
+</head>
+
+<body>
+    <div class="main-head">
+        <div class="heading-1">
+            <h1>Screen shown to users By default</h1>
+            <h2>New Employees</h2>
+        </div>
+        <div class="heading-2">
+            <h1>If user Clicks on Add user and even one of the fields is empty</h1>
+            <h2>New Employees-Error</h2>
+        </div>
+        <div class="heading-3">
+            <h1>On adding More and More employees, the list keeps geeting updated and the following ui is shown</h1>
+            <h2>New Employees-Success</h2>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="container-1">
+            <h1>New Employees</h1><br>
+            <div id="form-container">
+
+                <form class="employee-form">
+                    <div class="form-1">
+                        <label for="name">Enter Name</label><br>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-1">
+                        <label for="profession">Enter Profession</label><br>
+                        <input type="text" id="profession" required>
+                    </div>
+
+                    <div class="form-1">
+                        <label for="age">Enter age</label><br>
+                        <input type="number" id="age" required>
+                    </div>
+                </form><br>
+                <button type="submit" class="btn">Add User</button>
+
+
+                <div class="message">
+                    <h1>Added Employees</h1>
+                    <p>You have 0 Employees.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-1">
+            <h1>New Employees</h1><br>
+            <div id="form-container">
+
+                <form class="employee-form">
+                    <div class="form-1">
+                        <label for="name">Enter Name</label><br>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-1">
+                        <label for="profession">Enter Profession</label><br>
+                        <input type="text" id="profession" required>
+                    </div>
+
+                    <div class="form-1">
+                        <label for="age">Enter age</label><br>
+                        <input type="number" id="age" required>
+                    </div>
+                </form><br>
+                <button type="submit" class="btn">Add User</button>
+
+
+                <div class="message">
+                    <div id="para">
+                        <p> Error: please Make sure All the fields are filled before adding in an employee!</p>
+                    </div>
+                    <h1>Added Employees</h1>
+                    <p>You have 0 Employees.</p>
+                </div>
+                
+            </div>
+            
+            </div>
+            <!-- <div id="employees">
+      <h2>Added Employees</h2>
+      <ul id="employee-list"></ul>
+    </div>
+
+-->
+
+<div class="container-1">
+    <h1>New Employees</h1><br>
+    <div id="form-container">
+
+        <form class="employee-form">
+            <div class="form-1">
+                <label for="name">Enter Name</label><br>
+                <input type="text" id="name" placeholder="Jack" required>
+            </div>
+            <div class="form-1">
+                <label for="profession">Enter Profession</label><br>
+                <input type="text" id="profession" placeholder="Developer" required>
+            </div>
+
+            <div class="form-1">
+                <label for="age">Enter age</label><br>
+                <input type="number" id="age" placeholder="20" required>
+            </div>
+        </form><br>
+        <button type="submit" class="btn">Add User</button>
+
+
+        <div id="successmessage">
+            <p>Success Employee Added!</p>
+        </div>
+         <div id="employees">
+      <h2>Added Employees</h2>
+     <div class="table-1">
+     <ol>
+        <li> Name:Jhon Profession: Developer Age:18</li><br>
+        <button type="submit" class="btn">Delete User</button><br><br>
+        <li>Name:Jack Profession:Developer Age:20</li>
+        <button type="submit" class="btn">Delete User</button>
+        </ol>
+     </div>
+    </div>
+    </div>
+</div>
+
+        </div>
+
+        <script src="Rudraksh.js"></script>
+</body>
+
+</html>
